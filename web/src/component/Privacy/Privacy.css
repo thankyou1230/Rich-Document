@@ -1,0 +1,28 @@
+.header {
+  color: dimgrey;
+  font-family: "Maiandra GD";
+}
+
+.content {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 13px;
+  color: gray;
+}
+
+.bullet {
+  padding-left: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 13px;
+  color: gray;
+  display: none;
+}
+
+.showmore {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 13px;
+  color: gray;
+  display: none;
+}

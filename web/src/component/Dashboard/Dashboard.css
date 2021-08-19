@@ -1,0 +1,25 @@
+.spacer {
+  padding-right: 5px;
+}
+
+.secondtoolbar {
+  background-color: white;
+}
+
+.view {
+  color: black;
+}
+
+.blackicon {
+  color: black;
+}
+
+.grid {
+  padding-top: 50px;
+}
+
+.fileName {
+  font-size: small;
+  color: black;
+  text-decoration: none;
+}

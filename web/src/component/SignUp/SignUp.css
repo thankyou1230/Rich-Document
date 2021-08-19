@@ -1,0 +1,19 @@
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spacer {
+  padding-top: 10px;
+}
+
+.accept-privacy {
+  font-size: 0.75rem;
+}
+
+.title {
+  padding-left: 15px;
+  font-family: "Tempus Sans ITC";
+  font-size: larger;
+}

@@ -1,0 +1,65 @@
+﻿@model IEnumerable<RichDocumentRestAPIs.Models.Document>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.fileName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fileType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.lastModified)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.byteSize)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.url)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.userEmail)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.fileName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fileType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lastModified)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.byteSize)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.url)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.userEmail)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

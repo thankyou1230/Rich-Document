@@ -1,0 +1,38 @@
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spacer {
+  padding-top: 10px;
+}
+
+.googleButton {
+  text-transform: unset;
+}
+
+.center-vertical {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.rememberme {
+  font-size: 0.75rem;
+  color: gray;
+}
+
+.paper {
+  max-width: fit-content;
+  margin-top: spacing(8);
+}
+
+.form {
+  width: 25rem;
+}
+
+.google {
+  padding-right: 10px;
+}

@@ -1,0 +1,2 @@
+run:
+	adb -s R58M329GDVB reverse tcp:8081 tcp:8081 && npx react-native run-android

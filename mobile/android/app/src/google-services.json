@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1065943739458",
+    "firebase_url": "https://rich-document-default-rtdb.firebaseio.com",
+    "project_id": "rich-document",
+    "storage_bucket": "rich-document.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065943739458:android:421e8aac74ca1d031291db",
+        "android_client_info": {
+          "package_name": "com.richdocument"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065943739458-l7aeiqvi5cufvjkngo85aj0cdml4qf1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.richdocument",
+            "certificate_hash": "3f2adb573523a011c078051b03d04ee761ead505"
+          }
+        },
+        {
+          "client_id": "1065943739458-uflgordb49c9o4mg468d1q6t0m6v4k7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwff2YKE_qVFOaas965nWWxCUHcPtA4SA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065943739458-uflgordb49c9o4mg468d1q6t0m6v4k7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

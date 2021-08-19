@@ -1,0 +1,46 @@
+.img {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.spacer {
+  padding-right: 5px;
+}
+
+.bottomIconButton {
+  color: black;
+  font-size: medium;
+}
+
+.waveFormContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background: transparent;
+}
+
+.wave {
+  width: 100%;
+  height: 90px;
+}
+
+.playButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: #efefef;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-bottom: 3px;
+}
